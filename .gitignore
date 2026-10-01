@@ -1,0 +1,48 @@
+# Raw and large analysis data
+*.rds
+*.RData
+*.rda
+*.h5ad
+*.h5
+*.hdf5
+
+# Sequencing/raw data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.bai
+
+# AWS / credentials
+*.pem
+.aws/
+credentials
+config
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.Rhistory
+.RData
+
+# RStudio
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
